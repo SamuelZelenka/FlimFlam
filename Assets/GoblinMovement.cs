@@ -18,12 +18,20 @@ public class GoblinMovement : MonoBehaviour
         myRigidBody = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
     }
-
+    // sadgsdgdsgsd
+    // sadgsdgdsgsd
+    // sadgsdgdsgsd
+    // sadgsdgdsgsd
+    // sadgsdgdsgsd
+    // sadgsdgdsgsd
+    // sadgsdgdsgsd
+    
     // Update is called once per frame
     void Update()
     {
         moveTowardsTarget(target);
     }
+
 
     private void moveTowardsTarget(Transform target){
 
