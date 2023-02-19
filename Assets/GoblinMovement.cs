@@ -16,7 +16,7 @@ public class GoblinMovement : MonoBehaviour
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        target = GameObject.FindGameObjectWithTag("PlayerIYAOGUEF").transform;
 
         // stuff
         // stuff
